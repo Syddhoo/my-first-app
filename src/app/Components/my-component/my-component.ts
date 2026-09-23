@@ -13,7 +13,8 @@ showMessage() {
   alert('Button Clicked');
 }
   appName = "Interpolation in Angular";
-  imageUrl = "https://angular.io/assets/images/logos/angular/angular.svg";
+  //imageUrl = "https://angular.io/assets/images/logos/angular/angular.svg";
+  imageUrl = "/channels4_profile.jpg";
 
   userName = "";
 }

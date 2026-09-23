@@ -1,13 +1,17 @@
+<div class="center-container">
+
 <p>my-component is working!</p>
 
-{{ appName }}
+<p>{{ appName }}</p>
 
 <img [src] ="imageUrl" width="220" height="220">
 
 <button (click)="showMessage()" >Click here</button>
 
-<p>Enter your name : </p>
+<p>Live Preview : </p>
 
 <input type="text" [(ngModel)] = "userName" /> 
 
-<p>Hello there {{ userName }} !</p>
+<p>Two way binding works {{ userName }} !</p>
+
+</div>
